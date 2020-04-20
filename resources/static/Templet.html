@@ -82,7 +82,7 @@ footer {
 <section>
   <nav>
     <ul>
-      <li><a id = "a-first" href="Join.html">Join</a></li>
+      <li><a id = "a-first" href="#">Join</a></li>
       <li><a id ="a-second" href="Login.html">Login</a></li>
       <li><a id="a-third" href="#">...</a></li>
   
@@ -95,8 +95,15 @@ footer {
    <input type="text"> <br>
    <label>PASSWORD </label><br>
    <input type="text"><br>
-   <input id="login-Button" type="button" value="로그인">
-   <input id="id-Button" type="button" value="취소" >
+   <input id="login-Button" type="button" value="회원가입">
+   <input id="id-Button" type="button" value="아이디찾기" >
+      <input id="ps-Button" type="button" value="비밀번호찾기" >
+       <input id="detail-Button" type="button" value="detail">
+   <input id="name-Button" type="button" value="name" >
+      <input id="ps-Button" type="button" value="gender" >
+      <input id="ps-Button" type="button" value="update" >
+      <input id="ps-Button" type="button" value="delete" >
+      <input id="ps-Button" type="button" value="count" >
    </form>
   </article>
 </section>
@@ -121,7 +128,9 @@ $('#login-Button').click(function() {
 $('#id-Button').click(function() {
 	alert('아이디찾기')
 })
-
+$('#ps-Button').click(funcion() {
+	alert('비밀번호 찾기')
+})
 </script>
 </body>
 </html>
